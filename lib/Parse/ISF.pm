@@ -14,11 +14,11 @@ Tektronix oscillascope (TDS 3000, DPO 4000, etc)
 
 =head1 VERSION
 
-Version 0.01
+Version 0.0101
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.0101';
 
 
 =head1 SYNOPSIS
@@ -107,7 +107,7 @@ sub Read {
 
 Takes two parameters, they are the input/output file names.
 
-Converts a .isf file to a .csv file
+Converts a .isf file to a .csv file. 
 
 =cut
 
@@ -184,7 +184,6 @@ Copyright 2009 Ruizhe Yang, all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
-
 
 =cut
 

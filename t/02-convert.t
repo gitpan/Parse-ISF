@@ -1,6 +1,6 @@
 #!perl -T
 
-use Test::More tests => 3;
+use Test::More tests => 4;
 use Parse::ISF;
 
 $isf = 't/test.isf';
@@ -14,4 +14,7 @@ while ($l = <F>) {
 }
 close F;
 chomp $l;
-is($l, '-1.102e-07,0.0113625', 'check value written in CSV file');
+($x, $y) = split /,/, $l;
+is($x, '-1.102e-07', 'check x value written in CSV file');
+is($y, '0.0113625', 'check y value written in CSV file');
+
