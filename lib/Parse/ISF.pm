@@ -14,11 +14,11 @@ Tektronix oscillascope (TDS 3000, DPO 4000, etc)
 
 =head1 VERSION
 
-Version 0.0101
+Version 0.0102
 
 =cut
 
-our $VERSION = '0.0101';
+our $VERSION = '0.0102';
 
 
 =head1 SYNOPSIS

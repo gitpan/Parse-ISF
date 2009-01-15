@@ -1,6 +1,6 @@
 Revision history for Parse-ISF
 
-0.0101  13 Jan 2009
+0.0102  14 Jan 2009
         Fixed a bug in t/02-convert.t
 
 0.01    12 Jan 2009

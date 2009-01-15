@@ -15,6 +15,6 @@ while ($l = <F>) {
 close F;
 chomp $l;
 ($x, $y) = split /,/, $l;
-is($x, '-1.102e-07', 'check x value written in CSV file');
-is($y, '0.0113625', 'check y value written in CSV file');
+ok($x == -1.102e-07, 'check x value written in CSV file');
+ok($y == 0.0113625, 'check y value written in CSV file');
 
