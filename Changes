@@ -1,5 +1,8 @@
 Revision history for Parse-ISF
 
+0.0103  28 Jan 2009
+        Fixed a bug on big endian platforms
+
 0.0102  14 Jan 2009
         Fixed a bug in t/02-convert.t
 

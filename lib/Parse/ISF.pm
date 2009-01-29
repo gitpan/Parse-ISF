@@ -18,7 +18,7 @@ Version 0.0102
 
 =cut
 
-our $VERSION = '0.0102';
+our $VERSION = '0.0103';
 
 
 =head1 SYNOPSIS
@@ -92,7 +92,7 @@ sub Read {
 
     my $datablock;
     read F, $datablock, 2*$h->{NR_PT};
-    my @iy = unpack 's*', $datablock;
+    my @iy = unpack 'v*', $datablock;
     $h->{DATA} = [map {
         [$h->{XZERO} + $h->{XINCR}*$_,
          $h->{YMULT}*($iy[$_] - $h->{YOFF})]
